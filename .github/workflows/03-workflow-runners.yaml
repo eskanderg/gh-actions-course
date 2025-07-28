@@ -15,3 +15,9 @@ jobs:
             - name: Show OS
               run: |
                 echo "This job is running on OS: ${{ runner.os }}"
+    macos-echo:
+        runs-on: macos-latest
+        steps:
+            - name: Show OS
+              run: |
+                echo "This job is running on OS: ${{ runner.os }}"
